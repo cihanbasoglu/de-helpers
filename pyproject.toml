@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "de-helpers"
+version = "0.1.0"
+authors = [
+  { name="Cihan Basoglu", email="cihanbasoglu57@gmail.com" }
+]
+description = "A Python library for data engineering issues such as handling BigQuery, creating date ranges, text processing, and sending events to Amplitude API."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "pandas",
+  "google-cloud-bigquery",
+  "google-auth",
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/cihanbasoglu/de-helpers"

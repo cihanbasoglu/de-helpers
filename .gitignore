@@ -1,0 +1,48 @@
+# Byte-compiled / virtual environment files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.o
+*.out
+*.log
+*.swp
+*.swo
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+*.venv
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Testing / Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# MyPy type checking
+.mypy_cache/
+
+# BigQuery credentials (just in case)
+*.json
