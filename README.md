@@ -5,4 +5,4 @@ A Python library for handling BigQuery operations, date processing, text transfo
 ## Installation
 
 ```sh
-pip install my_library
+pip install de-helpers
